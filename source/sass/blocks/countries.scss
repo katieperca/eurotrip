@@ -1,0 +1,25 @@
+.countries__list {
+  padding: 0;
+  margin: 0;
+  margin-top: 80px;
+  list-style: none;
+}
+
+.countries__item {
+  display: flex;
+}
+
+.countries__item-heading {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.countries__item-info {
+  width: 31.5%;
+  margin-right: 100px;
+}
+
+.countries__item-text {
+  font-size: 16px;
+  letter-spacing: -0.47px;
+}

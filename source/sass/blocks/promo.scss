@@ -1,0 +1,35 @@
+.promo {
+  display: flex;
+  // width: 100%;
+  margin-top: 39px;
+  padding: 185px 5% 296px;
+
+  color: #ffffff;
+
+  background-image: url("../img/background-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.promo__wrapper {
+  margin-left: auto;
+  margin-right: 19%;
+  width: 25%;
+}
+
+.promo__heading {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -1.11px;
+  margin: 0;
+}
+
+.promo__slogan {
+  width: 376px;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.47px;
+  text-align: left;
+}

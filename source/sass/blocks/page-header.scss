@@ -1,0 +1,28 @@
+.page-header {
+  max-height: 100px;
+  min-width: 1024px;
+}
+
+.page-header__wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 39px;
+}
+
+.page-header__tel {
+  color: #141517;
+  font-size: 18px;
+  text-decoration: underline;
+
+  &:hover {
+    color: #FE7865;
+  }
+}
+
+@media (max-width: $tablet-width) {
+
+}
+
+@media (max-width: $mobile-width) {
+
+}

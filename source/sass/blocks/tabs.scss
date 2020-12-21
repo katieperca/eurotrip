@@ -1,0 +1,20 @@
+.tabs__controls {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid rgba(44, 46, 63, 0.3);
+  width: 69%;
+}
+
+.tabs__controls-item {
+  margin-right: 12.4%;
+  padding: 12px 0;
+
+}
+
+.tabs__controls-link {
+  color: rgba(44, 46, 63, 0.3);
+  font-size: 20px;
+}

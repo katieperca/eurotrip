@@ -1,0 +1,29 @@
+.prices {
+  display: flex;
+}
+
+.prices__list {
+  display: flex;
+  list-style: none;
+}
+
+.prices__item {
+  width: 43%;
+  padding: 30px 30px 40px 30px;
+  border: 3px solid rgba(44, 46, 63, 0.3);
+  border-radius: 6px;
+  margin-right: 30px;
+
+  &:hover {
+    border-color: rgba(254, 120, 101, 1);
+  }
+}
+
+.prices__heading {
+  font-size: 28px;
+}
+
+.prices__description {
+  width: 30%;
+}
+

@@ -1,0 +1,59 @@
+.button {
+  z-index: 2;
+  display: inline-block;
+  width: 340px;
+  padding: 25px 178px 25px 40px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #fe7865;
+  border: none;
+
+  &--countries {
+    width: 250px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  &--prices {
+    width: 310px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #f17d4b;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+// @media (max-width: $tablet-width) {
+//   .button {
+//     padding-top: 13px;
+//     padding-bottom: 13px;
+
+//     &--catalog {
+//       padding-top: 10px;
+//       padding-bottom: 10px;
+//     }
+
+//     &--form {
+//       padding-top: 15px;
+//       padding-bottom: 16px;
+//       font-size: 20px;
+//       line-height: 1;
+//     }
+//   }
+// }
